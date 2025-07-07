@@ -1,122 +1,124 @@
-[
-  {
-    "id": "assignment_001",
-    "propertyAddress": {
-      "street": "123 Maple Street",
-      "city": "Springfield",
-      "state": "IL",
-      "zip": "62704"
-    },
-    "scheduledTime": "2025-07-10T09:00:00",
-    "client": {
-      "name": "John Doe",
-      "phone": "+1-555-123-4567",
-      "email": "john.doe@example.com"
-    },
-    "claimIssue": "Water leakage in basement",
-    "inspectionType": "Leak Investigation",
-    "assignedInspector": {
-      "id": "inspector_002",
-      "name": "Sarah Smith"
-    },
-    "status": "scheduled",
-    "notes": "Client mentioned the issue occurs after heavy rain.",
-    "createdAt": "2025-07-05T14:30:00"
-  },
-  {
-    "id": "assignment_002",
-    "propertyAddress": {
-      "street": "456 Oak Avenue",
-      "city": "Lincoln",
-      "state": "NE",
-      "zip": "68508"
-    },
-    "scheduledTime": "2025-07-11T13:00:00",
-    "client": {
-      "name": "Emma Wilson",
-      "phone": "+1-555-789-0123",
-      "email": "emma.wilson@example.com"
-    },
-    "claimIssue": "Roof damage due to hail",
-    "inspectionType": "Storm Damage Assessment",
-    "assignedInspector": {
-      "id": "inspector_003",
-      "name": "David Lee"
-    },
-    "status": "in_progress",
-    "notes": "Insurance claim filed under StateFarm - Ref #SF123456",
-    "createdAt": "2025-07-06T10:00:00"
-  },
-  {
-    "id": "assignment_003",
-    "propertyAddress": {
-      "street": "789 Birch Lane",
-      "city": "Denver",
-      "state": "CO",
-      "zip": "80203"
-    },
-    "scheduledTime": "2025-07-12T15:30:00",
-    "client": {
-      "name": "Michael Chen",
-      "phone": "+1-555-222-3344",
-      "email": "michael.chen@example.com"
-    },
-    "claimIssue": "Cracked foundation near garage",
-    "inspectionType": "Structural Damage Check",
-    "assignedInspector": {
-      "id": "inspector_001",
-      "name": "Laura Kim"
-    },
-    "status": "pending",
-    "notes": "Client suspects issue is growing rapidly.",
-    "createdAt": "2025-07-07T09:00:00"
-  },
-  {
-    "id": "assignment_004",
-    "propertyAddress": {
-      "street": "101 Pine Road",
-      "city": "Austin",
-      "state": "TX",
-      "zip": "73301"
-    },
-    "scheduledTime": "2025-07-13T10:00:00",
-    "client": {
-      "name": "Robert Johnson",
-      "phone": "+1-555-888-9999",
-      "email": "robert.johnson@example.com"
-    },
-    "claimIssue": "Mold found behind bathroom wall",
-    "inspectionType": "Mold Inspection",
-    "assignedInspector": {
-      "id": "inspector_005",
-      "name": "Natalie Brooks"
-    },
-    "status": "scheduled",
-    "notes": "Photos already submitted by client.",
-    "createdAt": "2025-07-07T11:45:00"
-  },
-  {
-    "id": "assignment_005",
-    "propertyAddress": {
-      "street": "202 Cedar Court",
-      "city": "Seattle",
-      "state": "WA",
-      "zip": "98101"
-    },
-    "scheduledTime": "2025-07-14T08:00:00",
-    "client": {
-      "name": "Sophia Martinez",
-      "phone": "+1-555-777-0000",
-      "email": "sophia.martinez@example.com"
-    },
-    "claimIssue": "Electrical outlet sparks",
-    "inspectionType": "Electrical Safety Check",
-    "assignedInspector": {
-      "id": "inspector_004",
-      "name": "James Taylor"
-    },
-    "status": "scheduled",
-    "notes": "Urgent issue. Client is concerned about fire hazard.",
-    "createdAt": "2025-07-07T12:15:00"
-  }
-]
+{
+   "assignments":[
+      {
+         "id":"assignment_001",
+         "propertyAddress":{
+            "street":"123 Maple Street",
+            "city":"Springfield",
+            "state":"IL",
+            "zip":"62704"
+         },
+         "scheduledTime":"2025-07-10T09:00:00",
+         "client":{
+            "name":"John Doe",
+            "phone":"+1-555-123-4567",
+            "email":"john.doe@example.com"
+         },
+         "claimIssue":"Water leakage in basement",
+         "inspectionType":"Leak Investigation",
+         "assignedInspector":{
+            "id":"inspector_002",
+            "name":"Sarah Smith"
+         },
+         "status":"scheduled",
+         "notes":"Client mentioned the issue occurs after heavy rain.",
+         "createdAt":"2025-07-05T14:30:00"
+      },
+      {
+         "id":"assignment_002",
+         "propertyAddress":{
+            "street":"456 Oak Avenue",
+            "city":"Lincoln",
+            "state":"NE",
+            "zip":"68508"
+         },
+         "scheduledTime":"2025-07-11T13:00:00",
+         "client":{
+            "name":"Emma Wilson",
+            "phone":"+1-555-789-0123",
+            "email":"emma.wilson@example.com"
+         },
+         "claimIssue":"Roof damage due to hail",
+         "inspectionType":"Storm Damage Assessment",
+         "assignedInspector":{
+            "id":"inspector_003",
+            "name":"David Lee"
+         },
+         "status":"in_progress",
+         "notes":"Insurance claim filed under StateFarm - Ref #SF123456",
+         "createdAt":"2025-07-06T10:00:00"
+      },
+      {
+         "id":"assignment_003",
+         "propertyAddress":{
+            "street":"789 Birch Lane",
+            "city":"Denver",
+            "state":"CO",
+            "zip":"80203"
+         },
+         "scheduledTime":"2025-07-12T15:30:00",
+         "client":{
+            "name":"Michael Chen",
+            "phone":"+1-555-222-3344",
+            "email":"michael.chen@example.com"
+         },
+         "claimIssue":"Cracked foundation near garage",
+         "inspectionType":"Structural Damage Check",
+         "assignedInspector":{
+            "id":"inspector_001",
+            "name":"Laura Kim"
+         },
+         "status":"pending",
+         "notes":"Client suspects issue is growing rapidly.",
+         "createdAt":"2025-07-07T09:00:00"
+      },
+      {
+         "id":"assignment_004",
+         "propertyAddress":{
+            "street":"101 Pine Road",
+            "city":"Austin",
+            "state":"TX",
+            "zip":"73301"
+         },
+         "scheduledTime":"2025-07-13T10:00:00",
+         "client":{
+            "name":"Robert Johnson",
+            "phone":"+1-555-888-9999",
+            "email":"robert.johnson@example.com"
+         },
+         "claimIssue":"Mold found behind bathroom wall",
+         "inspectionType":"Mold Inspection",
+         "assignedInspector":{
+            "id":"inspector_005",
+            "name":"Natalie Brooks"
+         },
+         "status":"scheduled",
+         "notes":"Photos already submitted by client.",
+         "createdAt":"2025-07-07T11:45:00"
+      },
+      {
+         "id":"assignment_005",
+         "propertyAddress":{
+            "street":"202 Cedar Court",
+            "city":"Seattle",
+            "state":"WA",
+            "zip":"98101"
+         },
+         "scheduledTime":"2025-07-14T08:00:00",
+         "client":{
+            "name":"Sophia Martinez",
+            "phone":"+1-555-777-0000",
+            "email":"sophia.martinez@example.com"
+         },
+         "claimIssue":"Electrical outlet sparks",
+         "inspectionType":"Electrical Safety Check",
+         "assignedInspector":{
+            "id":"inspector_004",
+            "name":"James Taylor"
+         },
+         "status":"scheduled",
+         "notes":"Urgent issue. Client is concerned about fire hazard.",
+         "createdAt":"2025-07-07T12:15:00"
+      }
+   ]
+}
